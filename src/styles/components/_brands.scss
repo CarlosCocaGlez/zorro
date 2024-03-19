@@ -1,0 +1,22 @@
+.brands {
+  padding: 3rem;
+  margin: 5rem 0;
+
+  &__title {
+    text-align: center;
+    font-size: 3rem;
+    color: $primary-color;
+    text-transform: uppercase;
+  }
+
+  &__logos {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    img {
+      height: 3rem;
+    }
+  }
+}
