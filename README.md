@@ -2,9 +2,9 @@
 
 How would groceries Zorro would look like with a different webpage style
 
-This website is created using HTML5 / SASS / React + Vite and its based on first mobile methodology
+This website is created using HTML5 / SASS / React + Vite
 
-[![My Skills](https://skillicons.dev/icons?i=html,scss,react,github,vite,webstorm,netlify)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,scss,react,github,vite,webstorm)](https://skillicons.dev)
 
 ## Installation
 
