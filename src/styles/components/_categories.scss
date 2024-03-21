@@ -1,0 +1,87 @@
+.categories {
+  color: $primary-color-dark-1;
+  text-align: center;
+
+  &__main {
+    position: relative;
+  }
+
+  &__title {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 400;
+
+    span {
+      border-radius: 4rem;
+      border: 1px solid rgba($primary-color-light-2, 0.2);
+      padding: .5rem 1rem;
+
+      &::before {
+        border: 1px solid rgba($primary-color-light-2, 0.1);
+        bottom: 50%;
+        content: '';
+        display: block;
+        position: absolute;
+        right: 60%;
+        transform: rotate(0deg);
+        width: 100%;
+      }
+
+      &::after {
+        border: 1px solid rgba($primary-color-light-2, 0.1);
+        bottom: 50%;
+        content: '';
+        display: block;
+        left: 60%;
+        position: absolute;
+        transform: rotate(0deg);
+        width: 100%;
+      }
+    }
+  }
+
+  &__subtitle {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  &__tags {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    text-transform: lowercase;
+
+    span {
+      border-radius: 4rem;
+      border: 1.2px solid rgba($primary-color, 0.5);
+      font-size: 1.6rem;
+      padding: .5rem 1rem;
+      transition: background-color .5s ease-in-out;
+
+      &:hover {
+        background-color: $primary-color-dark-2;
+        border: 1.2px solid transparent;
+        color: $white-red-1;
+        cursor: pointer;
+      }
+    }
+    &-isActive {
+      background-color: $primary-color-dark-2;
+      border: 1.2px solid transparent;
+      color: $white-red-1;
+      cursor: pointer;
+    }
+  }
+
+  &__cards {
+    padding: 2rem;
+
+    &-card {
+      background-color: lightskyblue;
+      border-radius: 2px;
+      height: 45rem;
+      width: 35rem;
+    }
+  }
+}
